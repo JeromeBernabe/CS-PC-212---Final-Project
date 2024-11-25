@@ -1,0 +1,63 @@
+/* SuperGlobal */
+body{
+    background-color: #06021E;
+    margin: 0%;    
+}
+
+/* Classes */
+.button{
+    width: 14em;
+    border: 1px solid #E0EDFC;
+    /* Remove After Development */
+    text-align: center;
+    align-content: center;
+    color: #E0EDFC;
+}
+
+.button:hover{
+    background-color: #E0EDFC;
+    transition: color, 0.5s;
+    transition: background-color, 0.5s;
+    transition-timing-function: ease-in-out;
+    color: #06021E;  
+}
+
+.section{
+    display: inherit;
+    border: 1px solid #E0EDFC;
+    align-items: stretch;
+    margin-left: auto;
+}
+
+.container{
+    height: 50em;
+    border: 1px solid #E0EDFC;
+    /* Remove After Development */
+    color: #E0EDFC;
+    text-align: center;
+    align-content: center;
+}
+
+.footer{
+    height: 30em;
+    border: 1px solid #E0EDFC;
+    /* Remove After Development */
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+}
+
+/* Unique Identifiers */
+#logo{
+    text-align: center;
+    align-content: center;
+}
+
+#navbar{
+    position: fixed;
+    display: flex;
+    width: 99.9%;
+    height: 5em;
+    border: 1px solid #E0EDFC;
+}
+
