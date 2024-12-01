@@ -1,8 +1,8 @@
 <div id = 'navbar'>
-    <div class = 'button 'id = 'logo'>Logo</div>
+    <button class = "button">Logo</button>
     <div class = 'section'>
-        <div class = "button" id = 'Shop'>Shop</div>
-        <div class = "button">Button</div>
-        <div class = "button">Button</div>
+        <button class = "button">Shop</button>
+        <button class = "button">Cart</button>
+        <a href = "/login"><button class = "button">Login</button></a>
     </div>
 </div>

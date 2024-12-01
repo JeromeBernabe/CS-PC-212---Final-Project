@@ -2,12 +2,15 @@
 body{
     background-color: #06021E;
     margin: 0%;    
+    font-family: monospace;
 }
 
 /* Classes */
 .button{
     width: 14em;
     border: 1px solid #E0EDFC;
+    background-color: #06021E;
+    font-family: monospace;
     /* Remove After Development */
     text-align: center;
     align-content: center;

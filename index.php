@@ -1,3 +1,3 @@
 <?php
-require 'Views/index.view.php';
+    require 'Router/router.php';
 ?>
