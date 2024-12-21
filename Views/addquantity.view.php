@@ -1,6 +1,6 @@
 <?php
     require 'Components/navbar.php';
-    require 'Components/login.php';
+    require 'Components/addquantity.php';
 ?>
 <style>
     <?= 

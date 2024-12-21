@@ -1,13 +1,9 @@
 <?php
     require 'Components/navbar.php';
-    require 'Components/hero.php';
+    require 'Components/authlist.php';
 ?>
 <style>
     <?=
         require 'style.css'
     ?>
 </style>
-
-
-
-

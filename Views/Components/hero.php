@@ -1,6 +1,3 @@
-<div class = 'container' id = 'Feature'>
-    Feature
-</div>
-<div class = 'container' id = 'Pre-Order'>
-    Pre-Order
+<div class = 'first container' id = 'Feature'>
+    <img class = "hero" src="../Assets/ive_Switch_concept_all_group_profile (1).jpg" alt="">
 </div>

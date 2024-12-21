@@ -1,7 +1,9 @@
 <?php
     require 'Components/navbar.php';
-    require 'Components/login.php';
+    require 'Components/signup.php';
+    
 ?>
+
 <style>
     <?= 
         require 'style.css';

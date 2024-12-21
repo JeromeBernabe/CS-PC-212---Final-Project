@@ -5,12 +5,32 @@ body{
     font-family: monospace;
 }
 
+a{
+    text-decoration: none;
+    display: flex;
+    align-items: stretch;
+}
+
+label{
+    display: flex;
+    margin-inline-start: 5vw;
+    font-size: 1.2rem;
+}
+
 /* Classes */
+.textcentered{
+    margin-block: 2.5rem;
+    margin-inline: auto;
+}
+
 .button{
     width: 14em;
-    border: 1px solid #E0EDFC;
+    border: none;
     background-color: #06021E;
     font-family: monospace;
+    transition: color, 0.5s;
+    transition: background-color, 0.5s;
+    transition-timing-function: ease-in-out;
     /* Remove After Development */
     text-align: center;
     align-content: center;
@@ -19,26 +39,30 @@ body{
 
 .button:hover{
     background-color: #E0EDFC;
-    transition: color, 0.5s;
-    transition: background-color, 0.5s;
-    transition-timing-function: ease-in-out;
     color: #06021E;  
 }
 
-.section{
-    display: inherit;
-    border: 1px solid #E0EDFC;
-    align-items: stretch;
-    margin-left: auto;
+.first{
+    margin-top: 4rem;
 }
 
 .container{
-    height: 50em;
+    display: flex;
+    height: auto;
     border: 1px solid #E0EDFC;
+    margin-inline: 20rem;
+    flex-wrap: wrap;
     /* Remove After Development */
     color: #E0EDFC;
     text-align: center;
     align-content: center;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 20rem;
 }
 
 .footer{
@@ -48,19 +72,122 @@ body{
     color: aliceblue;
     text-align: center;
     align-content: center;
+} 
+
+.inputfield{
+    display: flex;
+    width: 16vw;
+    height: 3.5vh;
+    padding-left: 0.5vw;
+    margin-inline-start: 5vw;
+    background-color: #06021E;
+    border: 1px solid #E0EDFC;
+    margin-block: 1vh;
+    color: #E0EDFC; 
+    font-family: monospace;
 }
 
-/* Unique Identifiers */
-#logo{
-    text-align: center;
-    align-content: center;
+.inputfield:focus-visible{
+    outline: none;
 }
+
+.hero{
+    width: 79.5rem;
+    height: auto;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #E0EDFC;
+    height: fit-content;
+    margin: 1.3rem;
+}
+
+.img{
+    max-width: 14rem;
+    max-height: 14rem;
+    margin-inline: 1.5rem;
+
+}
+
+.buttonsection{
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    border: 1px solid #E0EDFC;
+}
+
 
 #navbar{
     position: fixed;
     display: flex;
     width: 99.9%;
     height: 5em;
+    border-bottom: 1px solid #E0EDFC;
+    background-color: #06021E;
+    top: 0;
+}
+
+#logo{
+    margin-left: 20rem;
+    margin-right: auto;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin-inline: auto;
     border: 1px solid #E0EDFC;
 }
 
+#submit{
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    padding-left: 0.8vw;
+    margin-inline-start: 5vw;
+    height: 4vh;
+    width: 4vw;
+    border: 1px solid #E0EDFC;
+    background-color: #06021E;
+    color: #E0EDFC;
+    overflow: hidden;
+    transition: 0.2s background-color,color ease;
+}
+
+#submit:hover{
+    background-color: #E0EDFC;
+    color: #06021E;
+}
+
+#logout{
+    display: flex;
+    margin: 0;
+}
+
+#admincheckbox{
+    display: inline;
+}
+
+#choose{
+    display: flex;
+    margin-inline-start: 5vw;
+    margin-bottom: 2vh;
+    border: 1px solid #E0EDFC;
+}
+
+#option{
+    margin: 0;
+}
+
+#formbutton{
+    display: flex;
+    margin: 0;
+}
+
+#addquantity{
+    min-height: 5em;
+}
